@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Konfigurera — Sun Acoustics</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <a class="logo" href="index.html">SUN ACOUSTICS</a>
+    <nav>
+      <a href="index.html">System</a>
+      <a href="products.html">Produkter</a>
+      <a href="configure.html">Konfigurera</a>
+      <a href="contact.html">Kontakt</a>
+    </nav>
+  </header>
+  <main class="wrap" style="padding:48px 24px 80px;">
+    <div class="kicker">Factory direct</div>
+    <h1 style="font-size:40px;margin-bottom:12px;">Konfigurera system</h1>
+    <p class="muted" style="margin-bottom:28px;max-width:52ch;">Användning och skala ger ett systemförslag från tillverkaren. Inget återförsäljarled.</p>
+    <form action="mailto:info@sun-acoustics.com" method="post" enctype="text/plain">
+      <label class="muted">Tillämpning</label>
+      <select name="application">
+        <option>Live</option>
+        <option>Klubb</option>
+        <option>Installation</option>
+        <option>Fast system / privat</option>
+      </select>
+      <label class="muted">Skala</label>
+      <select name="scale">
+        <option>Stativ — 2 toppar</option>
+        <option>Liten rigg — 2 toppar + 2 × SA-S15</option>
+        <option>Medium — toppar + SA-S18 / SA-215</option>
+        <option>Större — flera stackar</option>
+      </select>
+      <label class="muted">Namn</label>
+      <input name="name" required>
+      <label class="muted">E-post</label>
+      <input type="email" name="email" required>
+      <label class="muted">Kommentar</label>
+      <textarea name="note" rows="4"></textarea>
+      <button class="btn" type="submit">Skicka till konstruktören</button>
+    </form>
+  </main>
+  <footer>
+    <span>Sun Acoustics · Made in Sweden</span>
+    <a href="mailto:info@sun-acoustics.com">info@sun-acoustics.com</a>
+  </footer>
+</body>
+</html>
