@@ -1,2 +1,5 @@
-# sun-acoustics
-Sun Acoustics factory-direct professional sound systems site
+# Sun Acoustics
+
+Factory-direct professional sound systems. Static site.
+
+Replace images in /assets and PDFs in /downloads when measurement data exists. See CONTENT.md.
